@@ -43,7 +43,7 @@ export class Game {
         this.#mapHandler = new MapHandler(5, mapID);
         break;
       case "Easy":
-        this.#mapHandler = new MapHandler(2, mapID);
+        this.#mapHandler = new MapHandler(3, mapID);
         break;
       default:
         this.#mapHandler = new MapHandler(3, mapID);
